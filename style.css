@@ -242,13 +242,14 @@ li a {
 
 /* Our stories */
 .stories_container{
-  width: 100%;
+width: 100%;
   
 background-image: linear-gradient(#FFFFFF,#ffdfa7);
 padding-bottom: 50px;
 }
 .stories_info{
 width: 100%;
+
 background-image: url("./assets/bg.png");
 }
 .stories_info h2{
@@ -265,6 +266,7 @@ background-image: url("./assets/bg.png");
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(2,1fr);
   gap: 20px;
+  
 }
 .story{
   background-color: #fff;
@@ -307,7 +309,12 @@ background-image: url("./assets/bg.png");
   background-color: #5D58F0;
 }
 
-
+.viwe_all_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 
 
 footer {
@@ -422,6 +429,7 @@ font-size: 2rem;
       display: none;
      }
   /* stories */
+  
   .stories{
    
     width: 100%;
