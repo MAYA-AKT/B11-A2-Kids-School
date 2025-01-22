@@ -9,7 +9,6 @@
 }
 
 
-
 .quicksand {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -268,6 +267,7 @@ background-image: url("./assets/bg.png");
   gap: 20px;
   
 }
+
 .story{
   background-color: #fff;
   border-radius: 10px;
@@ -278,6 +278,10 @@ background-image: url("./assets/bg.png");
 }
 .story_info h3{
   font-size: 1rem;
+}
+.story_text,.footer_text{
+  padding-top: 10px;
+  line-height: 25px;
 }
 .story img{
   width: 100%;
@@ -396,7 +400,7 @@ footer {
 
   #horizental_line {
     display: block;
-    border: 0.1px solid var(--primary);
+    border: 0.1px solid #f3e6d0;
   }
 
   /* hero  */
@@ -446,7 +450,10 @@ font-size: 2rem;
   .story_info h3{
     font-size: 0.6rem;
     left: -50px;
+   
+
   }
+  
   /* footer */
   .footer-contents {
     width: 80%;
